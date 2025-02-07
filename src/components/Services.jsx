@@ -17,7 +17,7 @@ const Services = () => {
       <div className="container">
         <Heading
           title="Automation made for Business."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          text="NuroAI unlocks the potential of AI-powered applications"
         />
 
         <div className="relative">
@@ -35,7 +35,7 @@ const Services = () => {
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">Automation AI</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered automations
+                NuroAI unlocks the potential of AI-powered automations
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (

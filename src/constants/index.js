@@ -35,6 +35,7 @@ import {
   twitter,
   yourlogo,
 } from "../assets";
+import "@fortawesome/fontawesome-free/css/all.min.css"
 
 const email1 = "vignesh2024a@gmail.com"; // Replace with your email
   const subject1 = "Requesting for Quote";
@@ -44,7 +45,7 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "#Hero",
+    url: "#hero",
   },
   {
     id: "1",
@@ -100,7 +101,7 @@ export const roadmap = [
     id: "0",
     title: "Voice recognition",
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    date: "Soon",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
@@ -109,7 +110,7 @@ export const roadmap = [
     id: "1",
     title: "Adaptability",
     text: "Our intelligent chatbots seamlessly adapt to any industry, ensuring personalized automation for every business need.",
-    date: "May 2023",
+    date: "Soon",
     status: "progress",
     imageUrl: roadmap2,
   },
@@ -117,7 +118,7 @@ export const roadmap = [
     id: "2",
     title: "Chatbot customization",
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    date: "Soon",
     status: "done",
     imageUrl: roadmap3,
   },
@@ -125,7 +126,7 @@ export const roadmap = [
     id: "3",
     title: "Integration with APIs",
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    date: "Soon",
     status: "progress",
     imageUrl: roadmap4,
   },
@@ -315,7 +316,7 @@ export const socials = [
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://instagram.com/module_ai",
   },
   {
     id: "3",

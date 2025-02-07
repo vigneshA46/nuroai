@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Automate your Business with&nbsp;AI&nbsp;and {` `}
+            Automate your Business with&nbsp;&nbsp;{` `}
             <span className="inline-block relative">
-              Brainwave{" "}
+              NuroAI{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,9 +36,9 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI an automation with Brainwave and Upgrade your productivity.
+            Unleash the power of AI an automation with NuroAI and Upgrade your productivity.
           </p>
-          <Button href="/pricing" white>
+          <Button href="#getquote" white>
             Contact us
           </Button>
         </div>
