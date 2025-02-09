@@ -6,7 +6,8 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
-
+import Nuraailogo from '../assets/Nuraailogo.png'
+import bgnura from '../assets/bgnura.png'
 const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
@@ -38,9 +39,12 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
+        <div className="flex items-center gap-0" >
+        <img src={bgnura} width={90} height={90}  alt="" />
         <a className="block w-[12rem] xl:mr-8" href="#hero">
           <h1 style={{fontSize:'30px',fontWeight:'800'}} >NuroAI</h1>
         </a>
+        </div>
 
         <nav
           className={`${

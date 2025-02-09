@@ -291,7 +291,7 @@ export const benefits = [
   },
   {
     id: "5",
-    title: "Ask Anythng",
+    title: "Ask Anything",
     text: "Lets users quickly find answers to your questions without having to search through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,

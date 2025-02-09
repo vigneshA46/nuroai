@@ -25,11 +25,28 @@ const Footer = () => {
           <h2 className="text-2xl font-bold">NuroAI</h2>
           <p className="mt-2 text-gray-400">AI & Automation Solutions</p>
           <br />
-          <h5>nuroaiautomation@gmail.com</h5>
-          <br />
-          <a href="https://www.linkedin.com/in/vignesh-a-035147281/">
-          <h5>linkedin</h5>
-          </a>
+          <div style={{display:'flex',gap:'10px',alignItems:'center'}} >
+          <i className="fas fa-envelope"></i>
+          <a href="https://mailto:nuroaiautomation@gmail.com" >nuroaiautomation@gmail.com</a>
+          </div>
+          <div style={{display:'flex',gap:'10px',alignItems:'center'}} >
+          <i className="fas fa-envelope"></i>
+          <a href="https://mailto:vignesh2024a@gmail.com" >vignesh2024a@gmail.com</a>
+          </div>
+          <div style={{display:'flex',gap:'10px',alignItems:'center'}} >
+          <i className="fab fa-linkedin"></i>
+          <a href="https://linkedin.com/company/nuro-ai" >Linkedin</a>
+          </div>
+          <div style={{display:'flex',gap:'10px',alignItems:'center'}} >
+          <i className="fab fa-instagram"></i>
+          <a href="https://instagram.com/nuro__ai" >Instagram</a>
+          </div>
+          <div style={{display:'flex',gap:'10px',alignItems:'center'}} >
+          <i class="fa-solid fa-link"></i>
+          <a href="https://linktr.ee/vignesha1203" >Linktree</a>
+          </div>
+
+          
         </div>
 
         {/* Quick Links */}
@@ -41,21 +58,8 @@ const Footer = () => {
             <li><a href="#how-to-use" className="hover:text-gray-300">Solution</a></li>
             <li><a href="#roadmap" className="hover:text-gray-300">Working on</a></li>
           </ul>
-
-          {/* Social Media Icons */}
-          <div className="flex space-x-4 mt-4">
-            <a href={`https://mailto:${email}?subject=${subject}&body=${body}`} className="hover:text-gray-300 text-xl">
-              <i className="fas fa-envelope"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/vignesh-a-035147281/" className="hover:text-gray-300 text-xl">
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="#" className="hover:text-gray-300 text-xl">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#" className="hover:text-gray-300 text-xl">
-              <i className="fab fa-facebook"></i>
-            </a>
+          <div>
+            
           </div>
         </div>
 
